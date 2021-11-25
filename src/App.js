@@ -1,13 +1,12 @@
-import TodoBox from "./components/TodoBox";
+
+import View from "./components/View.js"
 
 function App() {
   return (
     <div className="App">
+      <View></View>
 
-    <TodoBox text="hello how are you doing today? hello how are you doing today?hello how are you doing today?hello how are you doing today?hello how are you doing today? " title="kms"/>
-    <TodoBox text="hello how are you doing today? hello how are you doing today?hello how are you doing today?hello how are you doing today?hello how are you doing today? " title="kms"/>
-    <TodoBox text="hello how are you doing today? hello how are you doing today?hello how are you doing today?hello how are you doing today?hello how are you doing today? " title="kms"/>
-
+  
   
 
     </div>
