@@ -25,12 +25,14 @@ const Entry = (props) => {
           <input
             type="text"
             maxLength="25"
+            placeholder="task name"
             value={title}
             onChange={(e) => setTitle(e.target.value)}
           />
         </StyledTitleBubble>
         <textarea
           maxLength="500"
+          placeholder="description"
           value={text}
           onChange={(e) => setText(e.target.value)}
         ></textarea>
